@@ -22,6 +22,7 @@ let nombre; // pour etre utilisé dans les 2 fonctions nombreAleatoire() et arro
 function nombreAleatoire() {
   nombre = Math.random(); // code manquant : il faut appeler la fonction Math.random()
   console.log(nombre);
+  return nombre;
 }
 nombreAleatoire();
 
